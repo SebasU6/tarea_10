@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        body {
+            font-family: "Fantasy", papyrus;
+        }
+        .visible {
+            overflow: visible;
+            background-color: #b95fc3;
+            width: 200px;
+            height: 65px;
+        }
+        .hidden {
+            overflow: hidden;
+            background-color: #046d78;
+            width: 200px;
+            height: 65px;
+        }
+        .scroll {
+            overflow: scroll;
+            background-color: #9e1323;
+            width: 200px;
+            height: 65px;
+        }
+        .auto {
+            overflow: auto;
+            background-color: #496efe;
+            width: 200px;
+            height: 65px;
+        }
+    </style>
+</head>
+<body>
+    <div class="visible">
+        <p>visible: Es establecido por defecto</p>
+    </div>
+    <div class="hidden">
+        <p>hidden: El desbordamiento se recorta y el contenido restante será invisible</p>
+    </div>
+    <div class="scroll">
+        <p>scroll: Se muestra una barra de desplazamiento para ver el contenido desbordado</p>
+    </div>
+    <div class="auto">
+        <p>auto: Se muestra una barra de desplazamiento solo cuando es necesario</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link</title>
+    <style>
+        .link a:link {
+            color: rgb(225, 123, 123);
+        }
+        .visited a:visited {
+            color: rgb(41, 149, 41);
+        }
+        .hover a:hover {
+            background-color: rgb(112, 255, 207);
+            border-style: dotted;
+            border-color: rgb(137, 228, 72);
+        }
+        .active a:active {
+            background-color: rgb(211, 39, 171);
+            border-style: dotted;
+            border-color: rgb(71, 114, 40);
+        }
+    </style>
+</head>
+<body>
+    <div class="link">
+        <p>
+            <a href="#">a:link: un enlace normal y no visitado</a>
+        </p>
+    </div>
+    <div class="visited">
+        <p>
+            <a href="#">a:visited: un enlace que el usuario ha visitado</a>
+        </p>
+    </div>
+    <div class="hover">
+        <p>
+            <a href="#">a:hover: un enlace cuando el usuario pasa su mouse sobre él</a>
+        </p>
+    </div>
+    <div class="active">
+        <p>
+            <a href="#">a:active: un enlace en el momento en que se hace clic en él</a>
+        </p>
+    </div>
+</body>
+</html>

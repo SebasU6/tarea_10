@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Background</title>
+</head>
+<style>
+  .color{
+    color: rgb(255, 255, 255);
+  }
+  .bgcolor{
+    background-color: rgb(100, 142, 142); height: 200px;
+    background-attachment: fixed;
+  }
+  .bgimage{
+    background-image: url(https://cdn.pixabay.com/photo/2016/12/11/23/26/london-1900570_960_720.jpg); 
+    height: 200px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .bgrepeat{
+    background-image: url(https://cdn-1.motorsport.com/images/amp/0k7VzPK0/s500/charles-leclerc-ferrari-sf-24.jpg); 
+    height: 200px;
+    background-repeat: repeat;
+    background-attachment: fixed;
+  }
+  .opacity{
+    background-image: url(https://media.admagazine.com/photos/637d11a6e63c8afac40e7a01/16:9/w_2560%2Cc_limit/1442809583);
+    height: 200px;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    background-attachment: fixed;
+  }
+</style>
+<body>
+  <div class="bgcolor">
+    <p>
+      Con background-color, se define el color del fondo,
+      de un elemento del codigo.
+    </p>
+  </div>
+  <div class="bgimage">
+    <p>
+      Con background-image, se define el fondo de un 
+      elemento con una imagen.
+    </p>
+  </div>
+  <div class="bgrepeat">
+    <p class="color">
+      Con background-repeat, se define el fondo de un
+      elemento, pero repitiendo una imagen de manera
+      horizontal y vertical.
+    </p>
+  </div>
+  <div class="opacity">
+    <p>
+      Con opacity, se define la opacidad de un
+      elemento.
+    </p>
+  </div>
+</body>
+</html>
